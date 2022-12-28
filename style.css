@@ -23,6 +23,8 @@ body {
     -webkit-perspective: 1200px;
     perspective: 1200px;
     transition: 1s;
+
+    background-size: cover;
 }
 
 /* .card:hover {
@@ -80,7 +82,9 @@ body {
 
 .back {
     transform: rotateY(180deg);
-    background: linear-gradient(to left, #e7e7e7, #ffffff 30%);
+    background-image: url(background/bg-card.jpg);
+    background-position: center;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: center;
