@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Oswald:wght@300;400;500;600;700&family=Dancing+Script&display=swap');
 
 * {
     padding: 0;
@@ -99,6 +99,11 @@ body {
     border-radius: 50%;
 }
 
+.inside p {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
 .cake {
     width: 100%;
     position: absolute;
@@ -170,6 +175,6 @@ body {
 }
 
 .inside h1 {
-    font-size: 120px;
+    font-size: 90px;
     line-height: 120px;
 }
