@@ -27,9 +27,9 @@ body {
     background-size: cover;
 }
 
-/* .card:hover {
+.card:hover {
     transform: rotate(-5deg);
-} */
+}
 
 .card:hover .outside {
     transform: rotateY(-180deg);
@@ -44,7 +44,7 @@ body {
 }
 
 .inside {
-    background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
+    background: linear-gradient(to right, #f3f3f3, #ffffff 30%);
     line-height: 3;
     padding: 0 20px;
     padding-bottom: 10px;
@@ -82,6 +82,7 @@ body {
 
 .back {
     transform: rotateY(180deg);
+    background: linear-gradient(to left, #e7e7e7, #ffffff 30%);
     background-image: url(background/bg-card.jpg);
     background-position: center;
     background-size: contain;
@@ -96,6 +97,7 @@ body {
     font-size: 24px;
     font-family: 'Caramel', cursive;
     margin-top: 20px;
+    background: #fff;
 }
 
 .back img {
